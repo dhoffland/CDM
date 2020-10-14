@@ -6,5 +6,33 @@
 		{
 			"corpusPath": "UserAgent.cdm.json"
 		}
+	],
+	"definitions": [{
+			"attributeGroupName": "dateId",
+			"members": [{
+				"name": "dateId",
+				"dataType": "integer"
+			}]
+		},
+		{
+			"attributeGroupName": "sessionUserInfo",
+			"members": [{
+					"name": "userId",
+					"dataType": "string"
+				},
+				{
+					"name": "anonymousUserId",
+					"dataType": "string"
+				},
+				{
+					"name": "ipAddress",
+					"dataType": "string"
+				},
+				{
+					"name": "sessionId",
+					"dataType": "string"
+				}
+			]
+		}
 	]
 }
