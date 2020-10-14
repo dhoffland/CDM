@@ -1,0 +1,26 @@
+{
+	"$schema": "../schema.cdm.json",
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+		"corpusPath": "_allImports.cdm.json"
+	}],
+	"definitions": [{
+		"entityName": "Session",
+		"extendsEntity": "CdmEntity",
+		"description": "The session.",
+		"hasAttributes": [{
+		  "name": "ua",
+		  "entity": "UserAgent"
+	  },
+	  {
+  		"name": "reverseIp",
+  		"entity": "ReverseIp",
+  		"resolutionGuidance": {
+  			"renameFormat": "{m}"
+  		}
+    ]
+	}]
+}
+ua + browserName = uaBrowserName
+ua + browserVersion = uaBrowserVersion
+ua + platform = uaPlatform
