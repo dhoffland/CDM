@@ -1,0 +1,10 @@
+{
+	"jsonSchemaSemanticVersion": "1.0.0",
+	"imports": [{
+			"corpusPath": "ReverseIp.cdm.json"
+		},
+		{
+			"corpusPath": "UserAgent.cdm.json"
+		}
+	]
+}
